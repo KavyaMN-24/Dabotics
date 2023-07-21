@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: beige;
+}
+
+.one {
+  background-color: rgb(48, 88, 88);
+  margin-top: 0;
+  height: 70px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.heading {
+  color: rgb(171, 171, 133);
+  text-align: center;
+  vertical-align: top;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 100;
+  transition: transform 0.3s ease;
+  margin: 0;
+  padding: 20px;
+}
+
+.heading:hover {
+  transform: scale(1.2);
+}
+
+.two {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.five {
+  background-color: bisque;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+
+.kavya {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: opcaity 0.20s ease;
+  flex: 1 0 calc(50% - 20px);
+  transition: 0.3s;
+}
+
+.kavya:hover{
+  opacity: 0.9;
+  transform: scale(1.1);
+  border: 10px solid #bcb281;
+}
+
+.author {
+  color: rgb(70, 63, 63);
+  font-size: large;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.nine {
+  flex: 1;
+}
+
+.about {
+  color: black;
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+}
+
+.six {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog1, .blog2, .blog3 {
+  flex: 1 0 calc(50% - 20px);
+  padding: 30px;
+  border: 8px solid #ded4a3;
+  width: 180px;
+  transition: 0.3s;
+}
+
+.blog1:hover, .blog2:hover, .blog3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 10px solid rgb(218, 190, 157);
+  background-color: #dbd7bf;
+  }
+
+.title1, .title2, .title3 {
+  text-align: justify;
+  color: rgb(156, 120, 73);
+  font-weight: bold;
+}
+
+.abstract1, .abstract2, .abstract3 {
+  text-align: justify;
+  color: rgb(97, 69, 31);
+}
+
+.footer{
+  display: block;
+  background-color: rgb(48, 88, 88);
+  margin-top: 5px;
+}
+.footer1{
+  display: inline-block;
+  width: 249.51px;
+  text-align: center;
+}
+.footer2, .footer3, .footer4{
+  display: inline-block;
+  width: 226px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.30s ease;
+}
+
+.footer2:hover{
+  opacity: 0.3;
+}
+.footer3:hover{
+  opacity: 0.3;
+}
+.footer4:hover{
+  opacity: 0.3;
+}
