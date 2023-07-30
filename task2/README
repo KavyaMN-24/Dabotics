@@ -1,0 +1,22 @@
+Instructions to Get the Final Output
+
+1. HTML, CSS, and JS Files: 
+Make sure you have the HTML code in the `main.html` file, the CSS code in the `styles.css` file, and the JavaScript 
+code in the `script.js` file. Ensure that all three files are saved in the same directory.
+
+2. Linking CSS File: 
+In the `main.html` file, make sure the `<link>` tag for the CSS file points to the correct file path.
+
+3. Linking JavaScript File: 
+In the `main.html` file, make sure the `<script>` tag for the JavaScript file points to the correct file path.
+
+4. Opening in a Web Browser: 
+Open the `main.html` file in a web browser. The calculator should now be visible with the CSS styles applied.
+
+5. Using the Calculator: 
+You can now use the web-based scientific calculator with the enhanced appearance. The buttons will be styled 
+with different colors based on their categories, and the calculator will be centered on the page.
+
+6. Responsive Behavior: 
+The calculator should adjust its layout and remain functional across various screen sizes due to the responsive 
+design
